@@ -1,0 +1,10 @@
+{
+    "jwtComponentName" : "HookGetJWT",
+    "botId" : "st-45234c3d-671a-59f1-a7cf-47568ae4d6f0",
+    "botName" : "ProcureAssist",
+    "pythonScript" : "generateJWTscript.py",
+    "snowflakeAccount" : "d2go.eu-west-1",
+    "snowflakeUser" : "QUA_SCM_DATAMART_PR_TU_CONSUMER_KOREAI",
+    "privateKeyFilePath" : "Qua_scm_datamart_pr_tu_consumer_koreai_private_key.pem",
+    "jwtURL" : "http://localhost:8004/jwt"
+}

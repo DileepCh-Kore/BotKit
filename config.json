@@ -1,0 +1,33 @@
+{
+    "server": {
+        "port": 8003
+    },
+    "app": {
+        "apiPrefix" : "/qa",
+        "url": "https://siemens-qa.kore.ai"
+    },
+    "validations": {
+        "leastNodeVersion": 10
+    },
+    "credentials": {
+        "apikey": "ujoslsVPR6fc6ivxRWnWymBw6W3kELlzEBxAueXCfGs=",
+        "appId": "cs-c3b8e60a-f160-55dd-80b1-f92230979641",
+        "st-67890":{
+            "apikey": "test_api_key2",
+            "appId": "test_app_id2"
+        }
+    },
+    "redis": {
+        "options": {
+            "host": "localhost",
+            "port": 6379
+        },
+        "available": false
+    },
+    "examples" : {
+        "mockServicesHost"  : "http://localhost:8004"
+    },
+    "liveagentlicense": "8947569",
+    "supportsMessageAck": true,
+    "languages":["en","de"]
+}
